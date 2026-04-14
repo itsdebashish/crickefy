@@ -16,7 +16,7 @@ const LoginPage = () => {
         <LabelInput name="username or email" value={email} onChange={setEmail} />
         <LabelInput name="password" value={password} onChange={setPassword} />
         <Button title="Log In" action={() => console.log({ email, password })} />
-        <span className="text-sm">haven't Register yet ? <Link href="register" className="text-red-700 font-serif font-semibold">register</Link> here!</span>
+        <span className="text-sm">have not Register yet ? <Link href="register" className="text-red-700 font-serif font-semibold">register</Link> here!</span>
       </div>
     </div>
   )

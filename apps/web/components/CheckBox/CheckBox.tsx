@@ -5,3 +5,5 @@ const CheckBox = () => {
     </>
   )
 }
+
+export { CheckBox }

@@ -4,7 +4,7 @@ import LabelInput from "@/components/LabelInput"
 import Button from "@/components/Button"
 import Link from "next/link"
 
-export const RegisterPage = () => {
+export default function RegisterPage() {
   const [name, setName] = useState("")
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")

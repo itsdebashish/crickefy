@@ -14,7 +14,7 @@ const Input = ({
         value={value}
         placeholder={placeholder}
         onChange={(e) => onChange(e.target.value)}
-        className="border w-full focus:outline-none border-blue-899 focus:shadow-sm shadow-blue-400 pl-1 pr-1 p-1 rounded-md " />
+        className="border w-full focus:outline-none border-blue-899 focus:shadow-md dark:shadow-white pl-1 pr-1 p-1 rounded-md " />
     </div>
   )
 
